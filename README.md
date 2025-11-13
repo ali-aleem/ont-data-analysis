@@ -134,7 +134,7 @@ Add rsIDs and Annotate Variants:
 # Clinvar rsIDs:
 java -Xmx10g -jar SnpSift.jar annotate -v clinvar_latest.vcf.gz clair3_output.vcf > rsIDs.vcf
 # Human Genome Database Annotation:
-java -Xmx10g -jar snpEff.jar -v GRCh38.99 rsIDs.vcf > annotated.vcf
+java -Xmx10g -jar snpEff.jar -v GRCh38_latest rsIDs.vcf > annotated.vcf
 ```
 Filter Variants with HIGH or MODERATE Impact:
 ```
