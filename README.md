@@ -72,8 +72,8 @@ conda config --set channel_priority strict
 | **Samtools**            | `conda install -c bioconda samtools`                                                                                                                    |
 | **Seqkit**              | `conda install -c bioconda seqkit`                                                                                                                      |
 | **Minimap2**            | `conda install -c bioconda minimap2`                                                                                                                    |
-| **NanoPlot / NanoStat** | `conda install -c bioconda nanoplot`                                                                                                                    |   
-| **NanoStat**            |`conda install -c bioconda nanostat`                                                                                                                     |
+| **NanoPlot**            | `conda install -c bioconda nanoplot`                                                                                                                    |   
+| **NanoStat**            | `conda install -c bioconda nanostat`                                                                                                                    |
 | **SnpEff / SnpSift**    | Download and configure from [SnpEff official site](https://pcingola.github.io/SnpEff/)                                                                  |
 | **Clair3**              | Install via Bioconda: see [Clair3 Documentation](https://github.com/HKU-BAL/Clair3)                                                                     |  
 
